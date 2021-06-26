@@ -5,8 +5,8 @@
     <desc>Created with Sketch.</desc>
     <defs>
         <radialGradient cx="116.70788%" cy="110.133192%" fx="116.70788%" fy="110.133192%" r="147.799618%" gradientTransform="translate(1.167079,1.101332),scale(0.357923,1.000000),rotate(-160.534454),translate(-1.167079,-1.101332)" id="radialGradient-1">
-            <stop stop-color="#99d6ff" offset="0%"></stop>
-            <stop stop-color="#80ccff" offset="2.91250472%"></stop>
+            <stop stop-color="#e6e6e6" offset="0%"></stop>
+            <stop stop-color="#bfbfbf" offset="2.91250472%"></stop>
             <stop stop-color="#33adff" offset="4.5053357%"></stop>
             <stop stop-color="#004d80" offset="6.00516035%"></stop>
             <stop stop-color="#002e4d" offset="25.4821693%"></stop>
