@@ -1,329 +1,229 @@
 <!DOCTYPE html>
-<html lang="en">
-
+<html>
 <head>
-  <meta charset="UTF-8">
-  <meta content="IE=edge" http-equiv="X-UA-Compatible">
-  <meta content="width=device-width,initial-scale=1" name="viewport">
-  <meta content="description" name="description">
-  <meta name="google" content="notranslate" />
-  <meta content="By Manish Raj Osti" name="author">
+    <title>Manish Raj Osti</title>
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        .container {
+            max-width: 96%;
+            margin: 0 auto;
+        }
+        .header {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 20px;
+        }
+        .profile-section {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin-left: 20px;
+        }
+        .name {
+            font-size: 1.5em;
+            margin-left: 20px;
+        }
+        .social-links {
+            display: flex;
+            justify-content: space-around;
+            width: 100px;
+        }
+        .social-links a {
+            color: #333;
+            text-decoration: none;
+        }
+        .social-links i {
+            font-size: 1.2em;
+        }
+        .navbar {
+            background-color: #6893be;
+            align-items: center;
+        }
+        .jumbotron {
+            background-color: #fff;
+            padding: 15px;
+            border-radius: 15px;
+            margin: 20px;
+        }
+        .jumbotron h3 {
+            background-color: #6798d8;  
+            color: #ffffff;  
+            padding: 10px; 
+        }
+        .footer {
+            background-color: #333;
+            color: #fff;
+            padding: 10px;
+            text-align: center;
+        }
+        .navbar-collapse {
+            justify-content:space-evenly;
+        }
+        .navbar a {
+            color: #ffffff;
+            padding: 1.5 rem;
+        }
+        .profile-pic {
+            width: 200px;
+            height: 200px;
+            border-radius: 50%;
+            border: 2px solid #333;
+            margin: 20px auto;
+            object-fit: cover;
+            display: block;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <div class="profile-section">
+            <img src="./LinkedInPic.jpg" alt="Manish Raj Osti" class="profile-pic">
+            <h1 class="name">Manish Raj Osti</h1>
+            <div class="social-links">
+                <a href="https://linkedin.com/in/mrosti"><i class="fab fa-linkedin"></i></a>
+                <a href="https://github.com/manishrajosti"><i class="fab fa-github"></i></a>
+                <a href="mailto:hr2398@wayne.edu"><i class="fas fa-envelope"></i></a>
+                <a href="https://scholar.google.com/citations?user=GQ6eODwAAAAJ&hl=en&oi=ao"><i class="fa fa-briefcase" aria-hidden="true"></i></a>
+            </div>
+        </div>
+    </div>
 
- 
-  <meta name="msapplication-tap-highlight" content="no">
-  
-  
-  <link rel="apple-touch-icon" sizes="180x180" href="./assets/icon_01.png">
-  <link href="./assets/favicon.ico" rel="icon">
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-
-  <link href="" rel="stylesheet">
-    <link
-    rel="stylesheet"
-    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
-
-
-  <title>Mr. Manish Raj Osti, Software Engineer</title>
-
-<link href="./main.550dcf66.css" rel="stylesheet">
-  <style>
-img {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-}
-</style>
-  </head>
-
-<body> 
-<header>
-  <nav class="navbar navbar-default active" style="background: linear-gradient(0.25turn, white, #f69d3c)" >
     <div class="container">
-      <div class="navbar-header">
-        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-collapse" aria-expanded="false">
-          <span class="sr-only">Toggle navigation</span>
-          <span class="icon-bar"></span>
-          <span class="icon-bar"></span>
-          <span class="icon-bar"></span>
-        </button>
-        <a class="navbar-brand" href="./index.html" title="">
-          <img src="./assets/icon_01.png" class="navbar-logo-img" alt="" width="120" height="120">
-        </a>
-      </div>
 
-      <div class="collapse navbar-collapse" id="navbar-collapse">
-        <ul class="nav navbar-nav navbar-right">
-          <li><a href="./index.html" title="">Home</a></li>
-          <li>
-            <p>
-              <a href="./06_23_resume.pdf" class="btn btn-default navbar-btn" title="">Resume</a>
-            </p>
-          </li>
-
-        </ul>
-      </div> 
-    </div>
-  </nav>
-</header>
- 
- 
-  
-  <div class="hero-full-container white-text-container">
-   <div class = "jumbotron jumbotron-fluid" style="background: linear-gradient(0.25turn, red, #3f87a6, #f69d3c);padding-top: 10%;padding-bottom: 10%;">
-    <div class="container">
-      <div class="row">
-        <div class="col-xs-12">
-          <img src="./assets/images/me_pic.JPG" alt="my pic" style="float:right;width:250px;border-radius: 50%">
-          <p>Hi, I am </p>
-          <h1>Manish Raj Osti</h1>
-          <p><i class="animate__animated animate__slower animate__fadeIn">Michigan based Software Engineer with a background<br>
-            in Software Engineering and Deep Learning. </i></p>
-          <br>
-          <a href="mailto:mro@mrosti.com" class="btn btn-default btn-lg" title="">Say Hello!</a>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-  
-
- 
-  <div class="section-container">
-    <div class="container">
-        <div class="row">
-          <div class="col-xs-12 col-md-8 col-md-offset-2">
-              <div class="text-center">
-                <div class="jumbotron" style="background-color:rgba(97, 232, 206,0.3)">
-                <h2>About Me</h2>
-                <p>Hey there, I want this page to be a "not-so-formal" description of who I am, my main skills and why I think I am a great software engineer
-                  and why you should hire me. For a more formal introduction, you can download my <b><a href="./manish_osti_resume_06_23.docx">Resume.</a></b><br><br>
-                  A childhood curiosity led to an educational focus in Engineering and Technology, more specifically automation and software development.
-                  My experience in and outside college has been both challenging and fun working on programming projects with the added thrill of being
-                  able to use programming languages to write programs with a few lines of code. And talking about my hobby, I play soccer, FIFA, ping-pong and love to travel.<br>
+        <nav class="navbar navbar-expand-lg">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <a class="navbar-brand" href="#">MRO</a>
+                    <li class="nav-item"><a class="nav-link" href="#summary">Summary</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#experience">Experience</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#education">Education</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#research">Research & Publications</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#skills">Technical Skills</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#projects">Projects & Leadership Experience</a></li>
+                </ul>
             </div>
+        </nav>
 
+        <div class="jumbotron" id="summary">
+            <h3>Summary</h3>
+            <p>Results-oriented Professional and Graduate Student in Computer Science specializing in AI. Experienced in cross-functional teams and driving data-driven decision-making and optimized operational efficiency. Published researcher with a strong background in data analysis and streamlined processes. Committed to leveraging AI technologies to deliver impactful results.</p>
+        </div>
 
-            <div class="jumbotron" style="background-color:rgba(97, 232, 206,0.3)">
-              <h3><i><p style="color:black"><b>What am I seeking for</b></p></i></h3>
-              <p>
-            <b>Challenge motivates me.</b> Even if I have mainly worked on Python and
-            Java applications, I crave opportunities to discover new
-            technologies and concepts.
-             </p>
-              <p>
-            <b>I love learning.</b> If you use programming languages or tools that I
-            have not already mastered, I probably already heard about it and I definitely
-            am confident that I can quickly become proficient with it.
-              </p>
+        <div class="jumbotron" id="experience">
+            <h3>Work Experience</h3>
+            <h6>Hemlock Semiconductor (HSC), Associate Analytics Professional, Hemlock, MI</h6>
+            <p>Jan 2022 — Present</p>
+            <ul>
+                <li>Collaborated with a cross-functional team across the site to accomplish a successful model cutover and initial startup phase, leading to a significant reduction of approximately 90% in investigation and maintenance hours. Recognized for outstanding performance and contributions to the project, awarded Impact Award Employee of Q1.</li>
+                <li>Boosted polysilicon harvest time prediction accuracy by approx. 50% via neural network-based regression, leading to efficient production deployment.</li>
+                <li>Implemented the Efficient Net (pre-trained model) to detect nanoparticles and defects in polysilicon for purity tests, resulting in an automated and much faster process for testing and analyzing batches of polysilicon.</li>
+                <li>Developed a Discrete Process Model to represent comprehensive on-site processes.</li>
+                <li>Designed a Schedule Visual to display the current and next employee on shift for different buildings at the plant, enhancing the efficiency of employee scheduling.</li>
+            </ul>
+            <h6>Saginaw Valley State University (SVSU), Undergrad Research Assistant, Saginaw, MI</h6>
+            <p>Aug 2022 — May 2023</p>
+            <ul>
+                <li>Led multiple Machine Learning research projects alongside faculty and peers, significantly enhancing my research and analytical skills within the realm of artificial intelligence.</li>
+            </ul>
+            <h6>Halla Mechantronics, Software Engineer: Co-op, Bay City, MI</h6>
+            <p>Aug 2021 — Dec 2021</p>
+            <ul>
+                <li>Successfully maintained automated Continuous Integration/Continuous Deployment (CI/CD) pipelines using Jenkins resulting in streamlined the process of code deployment, leading to a significant reduction in deployment time and enhancing the overall productivity of the software development team.</li>
+            </ul>
+        </div>
 
-            </div>
+        <div class="jumbotron" id="education">
+            <h3>Education</h3>
+            <h6>Wayne State University, Detroit, MI</h6>
+            <p>Expected Graduation 2025</p>
+            <ul>
+                <li>Master of Computer Science in Artificial Intelligence</li>
+            </ul>
+            <h6>Saginaw Valley State University, Saginaw, MI</h6>
+            <p>Graduation 2023</p>
+            <ul>
+                <li>Bachelors of Computer Science</li>
+            </ul>
+        </div>
 
-            <div class="jumbotron" style="background-color:rgba(97, 232, 206,0.3)">
-              <p>
-              <h3><i><p style="color:black"><b>What can I do</b></p></i></h3>
-              <b>Here are a few technologies I've been working with recently:</b>
-                        <ul id="skills" class="fa-ul medium-block-grid-2 small-block-grid-1">
-                         <li><i class="fa-li fa fa-desktop" aria-hidden="true"></i><b><p style="color:black;"> Tensorflow/Pytorch</p></b></li>
-                        <li><i class="fa-li fa fa-desktop" aria-hidden="true"></i><b><p style="color:black;"> Java</p></b></li>
-                        <li><i class="fa-li fa fa-desktop" aria-hidden="true"></i><b><p style="color:black;"> Python</p></b></li>
-                        <li><i class="fa-li fa fa-desktop" aria-hidden="true"></i><b><p style="color:black;"> JavaScript</p></b></li>
-                        <li><i class="fa-li fa fa-desktop" aria-hidden="true"></i><b><p style="color:black;"> Node.js</p></b></li>
-                        <li><i class="fa-li fa fa-desktop" aria-hidden="true"></i><b><p style="color:black;"> React</p></b></li>
-                        <li><i class="fa-li fa fa-desktop" aria-hidden="true"></i><b><p style="color:black;"> C++</p></b></li>
-                        <li><i class="fa-li fa fa-desktop" aria-hidden="true"></i><b><p style="color:black;"> C</p></b></li>
-                        <li><i class="fa-li fa fa-desktop" aria-hidden="true"></i><b><p style="color:black;"> SQL</p></b></li>
-                        <li><i class="fa-li fa fa-desktop" aria-hidden="true"></i><b><p style="color:black;"> Visual Basic.Net</p></b></li>
-                        <li><i class="fa-li fa fa-desktop" aria-hidden="true"></i><b><p style="color:black;"> HTML/CSS/BootStrap</p></b></li>
-                      </ul>
-                </p>
-               </p>
-            </div>
+        <div class="jumbotron" id="research">
+            <h3>Research & Publications</h3>
+            <h6>Weighted Sampled Split Learning (WSSL)</h6>
+            <ul>
+                <li>Identified research gaps in distributed machine learning like Federated and Split learning, enhancing understanding of current limitations and potential improvements in these areas, and proposed new architecture called Weighted Sampled Split Learning, resulting in unbiased, robust and privacy in distributed learning environments.</li>
+            </ul>
+            <h6>Channel State Information (CSI) estimation</h6>
+            <ul>
+                <li>Secured Student Grant funding for research on Channel State Information (CSI) estimation using shallow neural networks and co-authored a research paper on the subject and contributed to the design, development, and modification of AI models to predict CSI estimation, enhancing the efficiency of wireless communication systems.</li>
+            </ul>
+            <h6>Rotational CSI Anti-Spoofing (RCSI-AS)</h6>
+            <ul>
+                <li>Innovated a novel methodology for collecting and analyzing Channel State Information data from motorized routers, which resulted in a substantial boost to wireless security by reducing misclassification rates to just 0.31% and achieving a remarkable 93% accuracy in same-user pair identification.</li>
+            </ul>
+            <h6>Natural Language Processing (NLP)</h6>
+            <ul>
+                <li>Led a tweet classification research project, utilizing approximately 1 million tweets and applying Ensemble Bi-LSTM and Bi-GRU techniques, achieving an impressive classification accuracy of 92.45% and enhancing our insights into sentiment analysis.</li>
+            </ul>
+            <h6>Particle Swarm Optimization (PSO)</h6>
+            <ul>
+                <li>Implemented PSO for feature selection with bioinformatics datasets, where the implementation and comparison of this method against other feature selection strategies using a Support Vector Classifier (SVC) was performed resulting in an enhancement in the predictive accuracy and efficiency of bioinformatics data analysis.</li>
+            </ul>
+        </div>
 
-            </div>
-         </div>
+        <div class="jumbotron" id="skills">
+            <h3>Technical Skills</h3>
+            <ul>
+                <li>Computer Languages: Python, Java, JavaScript, VB.Net, C#, C++, SQL/NO-SQL, HTML, CSS, XML</li>
+                <li>Frameworks/Tools: Tensorflow/Keras, Pytorch, Node.js, Git</li>
+                <li>Skills: Machine Learning/Deep Learning, Software Development Life Cycle, Teamwork, Communication, Analysis</li>
+            </ul>
+        </div>
+
+        <div class="jumbotron" id="projects">
+            <h3>Projects & Leadership Experience</h3>
+            <h6>NASA Rover Lunabotics, Computer Vision Lead, SVSU</h6>
+            <p>Nov 2021 — May 2022</p>
+            <ul>
+                <li>Successfully curated and labeled a significant collection of image data, followed by the utilization of SSD MobileNet for training our custom datasets which resulted in an efficient deep learning model tailored to our specific needs, bolstering the capabilities of our image analysis applications.</li>
+                <li>Implemented Simultaneous Localization and Mapping (SLAM) alongside the Extended Kalman filter, to enhance the navigation system of the rover. This strategy significantly improved the rover's autonomous navigation accuracy, demonstrating robustness even in complex environments.</li>
+            </ul>
+            <h6>Google Developers Student Club & Machine Learning Club, President & VP, SVSU</h6>
+            <p>Aug 2022 — May 2023</p>
+            <ul>
+                <li>As President of the Google Developers Student Club, facilitated hands-on workshops, led project activities, and forged collaborations with local partners to boost student proficiency in developer products and platforms.</li>
+            </ul>
         </div>
 
     </div>
-  </div>
 
-
-
-<div class="container">
-  <div class="jumbotron" style="background-color:rgba(97, 232, 206,0.3)">
-    <h2 class="text-center">Projects</h2>
-    <div class="row" >
-      <div class="col-lg-6 col-xs-12">
-        <div class="thumbnail">
-          <img src="./assets/images/scrn_block.jpeg" alt="Screen Blocked" width="16.5%">
-          <div class="caption">
-            <h3>Automated Website Blocker & Informer/Twilio API</h3>
-            <p>It is the python app which blocks the website provided by the user and lets user to set time to start and end blocking time period.
-                   And once set, it will do automatically everyday on set time and texts/informs user to their's phone. Twilio API is used to send text to user. And changes are made it user's hosts file.</p>
-            <p><a href="https://github.com/manishrajosti/automated-website-blocker-and-informer" class="btn btn-primary" role="button">Github</a></p>
-          </div>
-
-
-        </div>
-
-
-      </div>
-
-      <div class="col-lg-6 col-xs-12">
-        <div class="thumbnail">
-          <img src="./assets/images/detection1.gif" alt="..." width="110%">
-          <div class="caption">
-            <h3>Video face detection/openCV</h3>
-            <p>It is the python app which detects human faces from a running video file or a running camera. OpenCV and Haarcascade are used to detect faces and make rectangle around the detected human faces.</p>
-            <p><a href="https://github.com/manishrajosti/video-face-recognition" class="btn btn-primary" role="button">Github</a></p>
-          </div>
-        </div>
-
-      </div>
-
-    </div>
-
-    <div class="row">
-      <div class="col-lg-6 col-xs-12">
-        <div class="thumbnail">
-          <img src="./assets/images/weather_screen.jpeg" alt="..." width="25.3%">
-          <div class="caption">
-            <h3>Automated Umbrella Remainder/Twilio API/OpenWeatherMap API</h3>
-            <p>This python app gives the weather information like; temperature, wind, humidity, heat index and rain and <br>
-                              reminds you to get umbrella if it is raining or going to rain. It sends text sms to phone every set time and give weather info.<br>
-                        Twilio API and OpenWeatherMap API are used to send text and retrieve weather data.</p>
-            <p><a href="https://github.com/manishrajosti/automated-weather-service" class="btn btn-primary" role="button">Github</a></p>
-          </div>
-        </div>
-
-      </div>
-
-      <div class="col-lg-6 col-xs-12">
-        <div class="thumbnail">
-          <img src="./assets/images/detect2.png" alt="..." width="94%">
-          <div class="caption">
-            <h3>Image face detection/openCV</h3>
-            <p>It is a python program which takes the photo and detects human faces. It is written using openCV and haarcascade.</p>
-            <p><a href="https://github.com/manishrajosti/image-face-detection" class="btn btn-primary" role="button">Github</a></p>
-          </div>
-        </div>
-
-      </div>
-
-
-    </div>
-
-    <div class="row">
-
-      <div class="col-lg-6 col-xs-12">
-        <div class="thumbnail">
-          <img src="./assets/images/img-06.png" alt="...">
-          <div class="caption">
-            <h3>Smart Thesarus</h3>
-            <p>It is a python command line program which helps to find the meaning of a word and also asks user if they have misspelled.</p>
-            <p><a href="https://github.com/manishrajosti/smart-thesarus" class="btn btn-primary" role="button">Github</a></p>
-          </div>
-        </div>
-
-      </div>
-
-    </div>
-
-
-  </div>
-</div>
-
-
- 
- 
-  <div class="section-container contact-container">
-    <div class="container">
-      <div class="row">
-        <div class="col-xs-12 col-md-12">
-          <div class="section-container-spacer">
-            <h2 id ="SecondH" class="text-center">Say, Hi!</h2>
-            <p class="text-center">I will be really excited to get in touch with anyone whose love tech.</p>
-          </div>
-          <div class="card-container">
-            <div class="card card-shadow col-xs-10 col-xs-offset-1 col-md-8 col-md-offset-2 reveal">
-              <form action="" class="reveal-content">
-                <div class="row">
-                  <div class="col-md-7">
-                  <a href="mailto:mro@mrosti.com">Get In Touch</a>
-                  </div>
-                  <div class="col-md-5">
-                    <ul class="list-unstyled address-container">
-                      <li>
-                        <span class="fa-icon">
-                          <i class="fa fa-phone" aria-hidden="true"></i>
-                        </span>
-                        +1 989-372-5605
-                      </li>
-                      <li>
-                        <span class="fa-icon">
-                          <i class="fa fa fa-map-o" aria-hidden="true"></i>
-                        </span>
-                        Saginaw, Michigan, 48603
-                      </li>
-                    </ul>
-                  </div>
-                </div>
-              </form>
-            </div>
-            <div class="card-image col-xs-12" style="background-image: url('/assets/images/img-01.jpeg')">
-            </div>
-          </div>
-        </div>  
-      </div>
-    </div>
-  </div>
-
-<script>
-  document.addEventListener("DOMContentLoaded", function (event) {
-    navbarFixedTopAnimation();
-  });
-</script>
-
-<footer class="footer-container white-text-container">
-  <div class="container">
-    <div class="row">
-
-     
-      <div class="col-xs-12">
-        <h3>Thanks for visiting.</h3>
-
-        <div class="row">
-          <div class="col-xs-12 col-sm-7">
-            <p><small>By Manish Raj Osti.</small>
-            </p>
-          </div>
-          <div class="col-xs-12 col-sm-5">
-            <p class="text-right">
-              <a href="https://github.com/manishrajosti" class="social-round-icon white-round-icon fa-icon" title="">
-                <i class="fa fa-github" aria-hidden="true"></i>
-              </a>
-              <a href="mailto:mro@mrosti.com" class="social-round-icon white-round-icon fa-icon" title="">
-                <i class="fa fa-envelope" aria-hidden="true"></i>
-              </a>
-              <a href="https://www.linkedin.com/in/manish-raj-osti-401602211/" class="social-round-icon white-round-icon fa-icon" title="">
-                <i class="fa fa-linkedin" aria-hidden="true"></i>
-              </a>
-            </p>
-          </div>
-        </div>
-        
-        
-      </div>
-    </div>
-  </div>
-</footer>
-
-<script>
-  document.addEventListener("DOMContentLoaded", function (event) {
-    navActivePage();
-    scrollRevelation('.reveal');
-  });
-</script>
-
---> <script type="text/javascript" src="./main.0cf8b554.js"></script></body>
-
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+    <script>
+        $(document).ready(function(){
+            $("a").on('click', function(event) {
+                if (this.hash !== "") {
+                    event.preventDefault();
+                    var hash = this.hash;
+                    var targetOffsetTop = document.querySelector(hash).offsetTop;
+                    $('html, body').animate({
+                        scrollTop: targetOffsetTop
+                    }, 800, function(){
+                        window.location.hash = hash;
+                    });
+                }
+            });
+        });
+    </script>
+</body>
 </html>
